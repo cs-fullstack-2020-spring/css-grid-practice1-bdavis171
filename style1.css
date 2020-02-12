@@ -25,8 +25,15 @@ body {
     grid-row: 1/3;
     background-color: lightgray;
     text-align: center;
-    color: gray;
+    
     padding: 1%;
+}
+
+#signup_page {
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+    position: relative; top: 24%;
 }
 
 #enter_email {

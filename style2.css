@@ -1,0 +1,45 @@
+input {
+    border: none;
+}
+
+body {
+    background-color: lightgray;
+    margin: 200px 400px 200px 400px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background-color: white;
+}
+
+#login {
+    grid-column: 1/5;
+    grid-row: 1/3;
+    text-align: center;
+    padding: 1%;
+    background-color: lightgray;
+}
+
+#signup {
+    grid-column: 5/9;
+    grid-row: 1/3;
+    text-align: center;
+    padding: 1%;
+}
+
+#login_page{
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+    position: relative; top: 24%;
+}
+
+#enter_data {
+    text-align: center;
+    grid-column: 1/9;
+    grid-row: 3/5;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding: 1%;
+}
